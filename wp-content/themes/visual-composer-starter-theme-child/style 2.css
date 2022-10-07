@@ -1,0 +1,94 @@
+/*
+Theme Name: Visual Composer Starter Child
+Theme URI: http://visualcomposer.io
+Description: Visual Composer Starter child theme
+Author: WPBakery
+Author URI: http://visualcomposer.io
+Template: visual-composer-starter
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, blog, starter, responsive-layout, accessibility-ready, sandwich-menu
+Text Domain: visual-composer-starter-child
+*/
+
+*
+{
+	word-wrap: normal !important;
+}
+body
+{
+	font-size: 20px !important;
+}
+body, #main-menu ul li ul li, .comment-content cite, .entry-content cite
+{
+  font-family: "Josefin Slab" !important;
+}
+button,
+.vce-button--style-3d-inner,
+.vce-basic-shadow-button,
+.caldera-grid .btn
+{
+	font-family: "Poller One";
+	font-weight: 400;
+}
+.menu-item a
+{
+	font-family: "Poller One";
+	font-size: 20px !important;
+}
+.outlined-button span
+{
+	background: #3D3D3D;
+}
+#fld_7908577_1-wrap
+{
+	text-align: center;
+}
+.shadow .vce-single-image-wrapper
+{
+	box-shadow: 0 18px 28px #615970;
+}
+#img01 .vce-single-image-wrapper
+{
+	border-radius: 22px;
+}
+.overlay
+{
+	background-color: #207eff;
+}
+.overlay .vce-asset-background-simple-item
+{
+	opacity: .375;
+}
+.text-shadow *
+{
+	text-shadow: 0 0 40px #00000010,
+		0 0 20px #00000015,
+		0 0 10px #00000020,
+		0 0 5px #00000025,
+		0 0 3px #00000030,
+		0 0 2px #00000035,
+		0 0 1px #00000040;
+}
+.big-button *
+{
+	font-size: 28px !important;
+}
+.caldera-grid .btn
+{
+	font-size: 30px !important;
+	padding: 18px 43px !important;
+	background-color: #a6a6a6 !important;
+  	box-shadow: 0 3px 0 0 #959595;
+	color: #fff !important;
+	border-radius: 5px !important;
+	border: 0 !important;
+}
+.caldera-grid .btn:hover
+{
+	box-shadow: none;
+	transform: translateY(3px);
+	background-color: #a6a6a6;
+	color: #fff;
+}
